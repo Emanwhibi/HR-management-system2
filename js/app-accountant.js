@@ -56,3 +56,4 @@ function Employee(empName,empDepartment,empLevel,empImage){
 
     employeesArray.push(this);
 }
+
