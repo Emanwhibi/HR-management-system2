@@ -57,6 +57,7 @@ function Employee(empName,empDepartment,empLevel,empImage){
     
     employeesArray.push(this);
 }
+
 let hadi = new Employee("Hadi Ahmad","Finance","Mid-senior","assests/Hadi.jpg")
 let safi = new Employee("Safi Walid","Administration","Mid-Senior","assets/Safi.jpg")
 let rana = new Employee("Rana Saleh","Development","Junior","assets/Rana.jpg")
@@ -110,6 +111,28 @@ accountingTapA.style.color="#c441bf"
 accountingTapA.style.textDecoration="none"
 accountingTapA.style.fontSize="larger"
 topNav.appendChild(accountingTapA);
+
+let main=document.createElement("div");
+main.id="main"
+main.style.paddingLeft="35px"
+body.appendChild(main); 
+
+
+let employeemainDiv=document.createElement("div");
+employeemainDiv.style.paddingRight="30px"
+main.appendChild(employeemainDiv);
+
+let employeemainDiv1=document.createElement("div");
+employeemainDiv1.style.paddingRight="30px"
+main.appendChild(employeemainDiv1);
+
+let employeemainDiv2=document.createElement("div");
+employeemainDiv2.style.paddingRight="30px"
+main.appendChild(employeemainDiv2);
+
+let employeemainDiv3=document.createElement("div");
+main.appendChild(employeemainDiv3);
+
 
 
 

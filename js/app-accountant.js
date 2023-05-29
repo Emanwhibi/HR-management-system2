@@ -57,3 +57,21 @@ function Employee(empName,empDepartment,empLevel,empImage){
     employeesArray.push(this);
 }
 
+let hadi = new Employee("Hadi Ahmad","Finance","Mid-senior","assests/Hadi.jpg")
+let safi = new Employee("Safi Walid","Administration","Mid-Senior","assets/Safi.jpg")
+let rana = new Employee("Rana Saleh","Development","Junior","assets/Rana.jpg")
+let tamara = new Employee("Tamara Ayoub","Marketing","Senior","assets/Tamara.jpg")
+let ghazi = new Employee("Ghazi Samer","Administration","Senior","assets/Ghazi.jpg")
+let omar = new Employee("Omar Zaid","Development","Senior","assets/Omar.jpg")
+let lana = new Employee("Lana Ali","Finance","Senior","assets/Lana.jpg")
+
+let header=document.createElement("div");
+let body=document.getElementsByTagName("body")[0];
+header.id="header"
+body.appendChild(header);
+
+let logoImageA=document.createElement("A");
+logoImageA.setAttribute("href", "./index.html")
+header.appendChild(logoImageA);
+
+
